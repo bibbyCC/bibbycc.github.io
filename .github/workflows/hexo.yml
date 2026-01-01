@@ -3,16 +3,17 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - hexo  
+      - hexo   # 👈 源码分支
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
+          ref: hexo
           submodules: true
           fetch-depth: 0
 
@@ -27,9 +28,9 @@ jobs:
       - name: Generate Hexo
         run: npx hexo generate
 
-      - name: Deploy to gh-pages
+      - name: Deploy to main
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
+          publish_branch: main      # 👈 静态文件分支
           publish_dir: ./public
