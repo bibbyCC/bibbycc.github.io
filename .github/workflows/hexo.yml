@@ -3,7 +3,7 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - main   # 或 source，看你源码分支名
+      - hexo   - he'x   # 或 sourc
 
 jobs:
   build:
