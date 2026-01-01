@@ -3,24 +3,23 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - hexo
+      - hexo   - he'x   # 或 sourc
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: hexo
           submodules: true
           fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 16   # 👈 关键
+          node-version: 16
 
       - name: Install dependencies
         run: npm install
@@ -28,9 +27,9 @@ jobs:
       - name: Generate Hexo
         run: npx hexo generate
 
-      - name: Deploy to main
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main
+          publish_branch: gh-pages
           publish_dir: ./public
