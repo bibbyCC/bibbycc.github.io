@@ -19,15 +19,22 @@ nav:
 
 menu:
   首頁: / || fas fa-home
-  標籤: /tags/ || fas fa-tags
-  分類: /categories/ || fas fa-folder-open
-  清单||fas fa-list:
-   照片: /Gallery/ || fas fa-images
-   音樂: /music/ || fas fa-music
-   電影: /movies/ || fas fa-video
+
+  文章||fas fa-book:
+    標籤雲: /tags/ || fas fa-tags
+    全部文章: /archives/ || fas fa-archive
+    分類瀏覽: /categories/ || fas fa-folder-open
+  
+  页面||fas fa-list:
+    照片: /Gallery/ || fas fa-images
+    音樂: /music/ || fas fa-music
+    電影: /movies/ || fas fa-video
+
   友鏈: /link/ || fas fa-link
   關於: /about/ || fas fa-heart
+
   時間軸: /archives/ || fas fa-archi
+
 
 # --------------------------------------
 # Code Blocks Settings
@@ -129,7 +136,7 @@ post_meta:
     # Choose: date / relative
     date_format: date
     categories: true
-    tags: false
+    tags: true
     label: true
   post:
     # Choose: left / center
@@ -469,7 +476,7 @@ math:
     # Enable the contextual menu
     enableMenu: true
     # Choose: all / ams / none, This controls whether equations are numbered and how
-    tags: none
+    tags: all 
 
   katex:
     # Enable the copy KaTeX formula

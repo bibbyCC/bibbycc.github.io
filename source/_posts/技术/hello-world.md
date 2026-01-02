@@ -1,8 +1,8 @@
 ---
 abbrlink: ''
-categories: []
-date: ''
-tags: []
+categories: [技术]
+date: '2026-01-01T22:10:22.145403+08:00'
+tags: [-技术]
 title: Hello World
 updated: '2026-01-01T22:19:10.154+08:00'
 ---
