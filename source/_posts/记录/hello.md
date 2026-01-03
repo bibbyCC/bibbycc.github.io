@@ -4,7 +4,7 @@ categories: []
 date: '2026-01-02T03:14:18.744942+08:00'
 tags: []
 title: 生活慢一点，代码写稳一点。
-updated: '2026-01-03T21:41:58.521+08:00'
+updated: '2026-01-03T22:03:00.745+08:00'
 ---
 ## 📷 照片记录
 
@@ -18,19 +18,22 @@ updated: '2026-01-03T21:41:58.521+08:00'
 
 生活慢一点，代码写稳一点。
 
+测试的代码：
 
-测试代码：``
+```markdown
 
----
 title: 一次安静的周末 ☕
 date: 2026-01-03 15:20:00
 categories:
-  - 生活记录
-tags:
-  - 日常
-  - 随拍
-cover: https://your-domain.com/img/cover/weekend.jpg
+
+- 生活记录
+  tags:
+- 日常
+- 随拍
+  cover: https://your-domain.com/img/cover/weekend.jpg
+
 ---
+
 周末在家整理博客，顺便拍了几张照片。
 
 ## 📷 照片记录
@@ -52,3 +55,4 @@ cover: https://your-domain.com/img/cover/weekend.jpg
 ![咖啡](https://your-domain.com/img/post/coffee.jpg)
 
 生活慢一点，代码写稳一点。
+```
