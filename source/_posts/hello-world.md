@@ -1,10 +1,10 @@
 ---
 abbrlink: ''
-categories: [技术]
+categories: 生活
 date: '2026-01-01T22:10:22.145403+08:00'
-tags: [-技术]
+tags: 生活
 title: Hello World
-updated: '2026-01-01T22:19:10.154+08:00'
+updated: '2026-01-01T00:03:10.154+08:00'
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
