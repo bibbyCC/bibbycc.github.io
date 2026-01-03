@@ -1,24 +1,11 @@
 ---
 abbrlink: ''
-categories:
-- - 记录
+categories: []
 date: '2026-01-02T03:14:18.744942+08:00'
-tags:
-- -记录
-title: title
+tags: []
+title: 生活慢一点，代码写稳一点。
 updated: '2026-01-03T21:12:59.888+08:00'
 ---
----
-title: 一次安静的周末 ☕
-date: 2026-01-03 15:20:00
-categories:
-  - 项目
-tags:
-  - -项目
-cover: https://img.091191.xyz/1767447122158.jpg
----
-测试一下博客，顺便拍了几张照片。
-
 ## 📷 照片记录
 
 ![梦想之车](https://img.091191.xyz/1767170763093.png)
