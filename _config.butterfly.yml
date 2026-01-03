@@ -20,19 +20,19 @@ nav:
 menu:
   首頁: / || fas fa-home
 
-  文章||fas fa-book:
-    標籤雲: /tags/ || fas fa-tags
-    全部文章: /archives/ || fas fa-archive
-    分類瀏覽: /categories/ || fas fa-folder-open
+  #文章||fas fa-book:
+   #標籤雲: /tags/ || fas fa-tags
+   #全部文章: /archives/ || fas fa-archive
+   #分類瀏覽: /categories/ || fas fa-folder-open
   
-  页面||fas fa-list:
+  清單||fas fa-list:
+    文章: /archives/ || fas fa-archive
     照片: /Gallery/ || fas fa-images
     音樂: /music/ || fas fa-music
     電影: /movies/ || fas fa-video
 
   友鏈: /link/ || fas fa-link
-  關於: /about/ || fas fa-heart
-
+  #關於: /about/ || fas fa-heart
   時間軸: /archives/ || fas fa-archi
 
 
@@ -106,7 +106,7 @@ footer_img: true
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: https://img.091191.xyz/1767191087312.png
+background:
 
 cover:
   # Disable the cover or not
