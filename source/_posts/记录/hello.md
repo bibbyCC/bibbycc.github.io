@@ -19,8 +19,7 @@ updated: '2026-01-03T21:41:58.521+08:00'
 生活慢一点，代码写稳一点。
 
 
-测试代码：
-
+测试代码：``
 
 ---
 title: 一次安静的周末 ☕
@@ -33,6 +32,16 @@ tags:
 cover: https://your-domain.com/img/cover/weekend.jpg
 ---
 周末在家整理博客，顺便拍了几张照片。
+
+## 📷 照片记录
+
+![桌面一角](https://your-domain.com/img/post/desk.jpg)
+
+最近在折腾 **Hexo + Qexo + Cloudflare Pages**，整体体验还不错。
+
+![咖啡](https://your-domain.com/img/post/coffee.jpg)
+
+生活慢一点，代码写稳一点。
 
 ## 📷 照片记录
 
