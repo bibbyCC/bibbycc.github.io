@@ -2,7 +2,7 @@
 abbrlink: ''
 categories: 生活
 date: '2026-01-01T22:10:22.145403+08:00'
-tags: 生活
+tags: 随笔
 title: Hello World
 updated: '2026-01-01T00:03:10.154+08:00'
 ---
