@@ -1,0 +1,19 @@
+/* ===== 全站字体（PC + Mobile） ===== */
+body,
+html,
+#body-wrap {
+  font-family: "LXGW WenKai Screen", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif !important;
+}
+
+/* ===== 移动端强制覆盖 ===== */
+@media screen and (max-width: 768px) {
+  body,
+  html,
+  #body-wrap {
+    font-family: "LXGW WenKai Screen", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, "Noto Sans", sans-serif !important;
+  }
+}
