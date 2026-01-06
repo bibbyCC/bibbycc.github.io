@@ -872,15 +872,15 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size:
-  code_font_size:
-  font_family: -apple-system
-  code_font_family:
+  global_font_size: 16px
+  code_font_size: 13px
+  font_family: LXGW WenKai Screen, serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif, Merriweather
+  code_font_family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
-  font_family: 'Hiragino Sans GB'
+  font_family: LXGW WenKai Screen, serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif, Merriweather
 
 # The setting of divider icon
 hr_icon:
@@ -1107,6 +1107,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
 
