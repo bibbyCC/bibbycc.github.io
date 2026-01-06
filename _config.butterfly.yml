@@ -280,7 +280,7 @@ footer:
  nav:
   - width:
     content:
-      - title: 文章类型
+      - title: 文章
         item:
           - title: 🚀 技术
             url: /posts/21cfbf15/
@@ -1107,7 +1107,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'">
+    # - <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
 
