@@ -42,11 +42,12 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
+  theme: darker
   macStyle: true
   # Code block height limit (unit: px)
   height_limit: false
   word_wrap: true
+  highlight_height_limit: 20 # unit: px（false或直接输入数值）
 
   # Toolbar
   copy: true
@@ -59,9 +60,10 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-
+  fab fa-github: https://github.com/bibbyCC || Github || ''
+  fa-solid fa-envelope: 86022608@qq.com || Email || ''
+  fa-brands fa-bilibili: https://space.bilibili.com/406730232 || bilibili || ''
+  fa-solid fa-person-running: https://run.091191.xyz || Running_page || '#000000'
 # --------------------------------------
 # Image Settings
 # --------------------------------------
@@ -106,7 +108,7 @@ footer_img: true
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+background: 
 
 cover:
   # Disable the cover or not
@@ -161,7 +163,7 @@ post_meta:
 # The position of site info, eg: 300px/300em/300rem/10%
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height: 400px
+index_top_img_height: 
 
 # The subtitle on homepage
 subtitle:
@@ -170,7 +172,7 @@ subtitle:
   effect: true
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
-  typed_option: 2
+  typed_option: 3
   # Source - Call the third-party service API (Chinese only)
   # It will show the source first, then show the content of sub
   # Choose: false/1/2/3
@@ -178,7 +180,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
-  source: false
+  source: 2
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
   - 今日事&#44;今日畢
@@ -201,9 +203,9 @@ index_layout: 3
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 1
   # If you set method to 2 or 3, the length need to config
-  length: 500
+  length: 
 
 # --------------------------------------
 # Post Settings
@@ -225,17 +227,17 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# Sponsor/reward
+# Sponsor/reward(打赏)
 reward:
-  enable: false
+  enable: true
   text:
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: /img/wechat.jpg
+      link:
+      text: wechat
+    - img: /img/alipay.jpg
+      link:
+      text: alipay
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -275,16 +277,48 @@ noticeOutdate:
 # Footer Settings
 # --------------------------------------
 footer:
-  nav:
-  owner:
-    enable: false
-    since: 2025
-  # Copyright of theme and framework
-  copyright:
+ nav:
+  - width:
+    content:
+      - title: 文章类型
+        item:
+          - title: 🚀 技术
+            url: /posts/21cfbf15/
+          - title: 📑 生活
+            url: /posts/dc584b87/
+          - title: 📌 折腾
+            url: /posts/4aa8abbe/
+  - content:
+    - title: 互动
+      item:
+        - title: ⚡️ 图库
+          url: /Gallery/
+        - title: ❓ 说说
+          url: /talking/
+        - title: ⚔️ 友链
+          url: /links/
+  - content:
+    - title: 框架
+      item:
+        - title: Hexo
+          url: https://hexo.io/zh-cn/
+        - title: Butterfly
+          url: https://butterfly.js.org/
+        - title: Qexo
+          url: https://github.com/Qexo
+  - content:
+    - title: 赞助
+      item:
+        - title: 微信
+          url: https://img.091191.xyz/1767687300310.jpeg
+          html: "<img src='https://img.091191.xyz/1767687300310.jpeg' alt='bibbyC' width='100px' height='100px'>"
+  
+    footer:
+    owner:
     enable: true
-    version: true
-  custom_text:
-
+    since: 2018
+    custom_text: Hi, welcome to my <a href="https://blog.091191.xyz">blog</a>!
+    
 # --------------------------------------
 # Aside Settings
 # --------------------------------------
