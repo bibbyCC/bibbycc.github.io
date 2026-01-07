@@ -903,7 +903,7 @@ activate_power_mode:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   # The size of ribbon
   size: 150
   # The opacity of ribbon (0 ~ 1)
@@ -1107,6 +1107,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
+    - <link rel="stylesheet" href="/css/lantern.css">
     - <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>

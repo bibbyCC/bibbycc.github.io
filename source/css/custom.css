@@ -25,3 +25,83 @@ html,
     "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", sans-serif !important;
 }
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  /* 这个带不带都可以，本来就是inline */
+  display: inline;
+  position: absolute !important;
+  width: max-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+#nav .menus_items .menus_item {
+  padding: 0 0 0 8px !important;
+}
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -95px;
+}
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: -103px;
+}
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+  left: -102px;
+}
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+  left: -117px;
+}
+.menus_items .menus_item:nth-child(6) .menus_item_child {
+  left: -133px;
+}
+.menus_items .menus_item:nth-child(7) .menus_item_child {
+  left: -105px;
+}
+
+/* ===== 全站背景图 ===== */
+html, body {
+  background: transparent !important;
+}
+
+/* 背景图放在 body::before（Butterfly 推荐） */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* ===== 页面主体透明 ===== */
+#body-wrap,
+#content-inner,
+.layout,
+main,
+#page,
+#post,
+.article,
+.card-widget,
+.recent-posts,
+.post-content {
+  background: transparent !important;
+}
+
+/* ===== 顶部导航透明 ===== */
+#nav {
+  background: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* ===== 文章卡片半透明（可选） ===== */
+.recent-post-item,
+.post-content {
+  background: rgba(255, 255, 255, 0.75) !important;
+  border-radius: 16px;
+}
