@@ -30,7 +30,7 @@ menu:
     照片: /Gallery/ || fas fa-images
     音樂: /music/ || fas fa-music
     電影: /movies/ || fas fa-video
-
+  
   友鏈: /link/ || fas fa-link
   #關於: /about/ || fas fa-heart
   時間軸: /archives/ || fas fa-archi
@@ -47,8 +47,8 @@ code_blocks:
   # Code block height limit (unit: px)
   height_limit: false
   word_wrap: true
-  highlight_height_limit: 20 # unit: px（false或直接输入数值）
-
+  highlight_height_limit: +30 # unit: px（false或直接输入数值）
+  
   # Toolbar
   copy: true
   language: true
@@ -294,9 +294,9 @@ footer:
         - title: ⚡️ 图库
           url: /Gallery/
         - title: ❓ 说说
-          url: /talking/
+          url: /shuoshuo/
         - title: ⚔️ 友链
-          url: /links/
+          url: /link/
   - content:
     - title: 框架
       item:
