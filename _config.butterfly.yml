@@ -18,6 +18,8 @@ nav:
   fixed: false
 
 menu:
+  # 搜索: javascript:void(0); || fas fa-search
+  
   首頁: / || fas fa-home
 
   #文章||fas fa-book:
@@ -526,7 +528,7 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
+  use: local_search
   placeholder:
 
   # Algolia Search

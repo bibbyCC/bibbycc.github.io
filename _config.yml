@@ -105,3 +105,8 @@ deploy:
   repository: git@github.com:bibbycc/bibbycc.github.io.git
   branch: main
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
