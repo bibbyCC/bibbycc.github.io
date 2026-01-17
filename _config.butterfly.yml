@@ -197,7 +197,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 6
 
 # Display the article introduction on homepage
 # 1: description
@@ -334,7 +334,7 @@ aside:
   button: true
   mobile: true
   # Position: left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
@@ -349,7 +349,48 @@ aside:
       link: https://github.com/bibbyCC
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: |
+      <style>
+      .announcement-card {
+          --main-color: #FF6A6A;
+          --secondary-color: #836FFF;
+          --highlight-color: #ff5500;
+          position: relative;
+          overflow: hidden;
+      }
+      .announcement-content {
+          font-size: 1rem; 
+          line-height: 1.2; 
+          color: #FF6A6A;
+          position: relative;
+      }
+      .keyword {
+          color: var(--secondary-color);
+          font-weight: 300;
+          font-size: 1.1rem; 
+      }
+      .highlight {
+          color: var(--main-color);
+          font-weight: 1000;
+          font-size: 1.2rem; 
+      }
+      .announcement-content ul {
+          list-style-type: none;
+          margin: 0.8rem 0; 
+          padding-left: 1.5rem;   
+      }
+      </style>
+      <div class="announcement-card">
+          <div class="announcement-content">
+              <p>🎉<span class="highlight">欢迎来到「BibbyC」网络博客</span>！🎉</p>
+              <ul>
+                  <li><span class="keyword">> ***记录生活点滴***</span></li>
+                  <li><span class="keyword">> ***分享折腾的乐趣***</span></li>
+                  <li><span class="keyword">> ***NAS系统及硬件***</span></li>
+              </ul>
+              <p>🌟 <strong>生命在于折腾！折腾不止，乐趣无穷！</strong></p>🌟 
+          </div>
+      </div>
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -1185,3 +1226,21 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+
+#首页文章轮播#
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
