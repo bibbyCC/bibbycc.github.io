@@ -314,9 +314,8 @@ footer:
         - title: 微信
           url: https://img.091191.xyz/1767687300310.jpeg
           html: "<img src='https://img.091191.xyz/1767687300310.jpeg' alt='bibbyC' width='100px' height='100px'>"
-  
-    footer:
-    owner:
+ footer:
+  owner:
     enable: true
     since: 2018
     custom_text: Hi, welcome to my <a href="https://blog.091191.xyz">blog</a>!
@@ -451,56 +450,38 @@ aside:
     # Leave it empty if you don't enable this feature
     runtime_date:
 
-# --------------------------------------
-# Bottom right button
-# --------------------------------------
-
-# The distance between the bottom right button and the bottom (default unit: px)
-rightside_bottom:
-
-# Conversion between Traditional and Simplified Chinese
-translate:
-  enable: true
-  # The text of a button
-  default: 簡
-  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 1
-  # Time delay
-  translateDelay: 0
-  # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
-  # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
-
-# Read Mode
-readmode: true
-
-# Dark Mode
-darkmode:
-  enable: true
-  # Toggle Button to switch dark/light mode
-  button: true
-  # Switch dark/light mode automatically
-  # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
-  # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
-  # autoChangeMode: false
-  autoChangeMode: false 
-  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start: 
-  end: 
-
-# Show scroll percent in scroll-to-top button
-rightside_scroll_percent: true
-
-# Don't modify the following settings unless you know how they work
-# Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
-# Don't repeat the same value
-rightside_item_order:
-  enable: false
-  # Default: readmode,translate,darkmode,hideAside
-  hide:
-  # Default: toc,chat,comment
-  show:
+# -------------------------------------- 
+# 右下角按钮 
+# -------------------------------------- 
+rightside_bottom: # 右下角按钮与底部的距离（默认单位：像素） 
+translate: # 繁简中文转换设置 
+  enable: true   # 是否启用繁简中文转换功能 
+  default: 繁   # 按钮的默认文本 
+  defaultEncoding: 2   # 网站的默认语言编码（1 - 繁体中文 / 2 - 简体中文） 
+  translateDelay: 0   # 转换语言时的延迟时间（单位：无明确说明，推测可能是毫秒） 
+  msgToTraditionalChinese: '繁'   # 当网站语言为简体中文时，按钮显示的文本 
+  msgToSimplifiedChinese: '簡'   # 当网站语言为繁体中文时，按钮显示的文本 
+# 阅读模式设置 
+readmode: true # 是否启用阅读模式 
+# 暗黑模式设置 
+darkmode: 
+  enable: true   # 是否启用暗黑模式 
+  button: true   # 是否显示切换暗黑/明亮模式的按钮 
+  # 是否自动切换暗黑/明亮模式 
+  # autoChangeMode: 1  跟随系统设置，如果系统不支持暗黑模式，则在下午6点到早上6点切换到暗黑模式 
+  # autoChangeMode: 2  固定在下午6点到早上6点切换到暗黑模式 
+  # autoChangeMode: false  不自动切换，手动切换 
+  autoChangeMode: 1
+  start:   # 设置明亮模式的开始时间。取值范围在0到24之间。如果未设置，默认值为6 
+  end:   # 设置明亮模式的结束时间。取值范围在0到24之间。如果未设置，默认值为18 
+rightside_scroll_percent: true # 是否在返回顶部按钮中显示滚动百分比 
+# 除非你知道这些设置的工作原理，否则不要修改以下设置 
+# 选择要在右下角显示的功能项，选项包括：readmode（阅读模式）、translate（繁简转换）、darkmode（暗黑模式）、hideAside（隐藏侧边栏）、toc（目录）、chat（聊天）、comment（评论） 
+# 不要重复使用相同的值 
+rightside_item_order: 
+  enable: false   # 是否启用右下角功能项排序设置 
+  hide:   # 默认隐藏的功能项，默认值为：readmode,translate,darkmode,hideAside
+  show: # 默认显示的功能项，默认值为：toc,chat,comment 
 
 # Animation for the bottom right config button
 rightside_config_animation: true
@@ -1244,3 +1225,44 @@ swiper:
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
   custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: /categories/ # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: even # odd：3列 | even：4列
+  row: 5 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: 1
+      cover: https://picsum.photos/1200/600?random=1
+    - descr: 2
+      cover: /img/test.jpg
+    - descr: 3
+      cover: https://picsum.photos/1200/600?random=2
+    - descr: 4
+      cover: https://picsum.photos/1200/600?random=3
+    - descr: 5
+      cover: https://picsum.photos/200/300?random=1
+    - descr: 6
+      cover: https://picsum.photos/200/300?random=2
+    - descr: 7
+      cover: https://picsum.photos/800/600?random=1
+    - descr: 8
+      cover: https://picsum.photos/800/600?random=2
+    - descr: 9
+      cover: https://picsum.photos/800/600?random=3
+    - descr: 10
+      cover: https://picsum.photos/800/600?random=4
+    - descr: 11
+      cover: https://picsum.photos/800/600?random=5
+    - descr: 12
+      cover: https://picsum.photos/800/600?random=6
+    - descr: 13
+      cover: https://picsum.photos/800/600?random=7          
+  custom_css: /css/categorybar.css
