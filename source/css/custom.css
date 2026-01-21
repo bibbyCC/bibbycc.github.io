@@ -107,10 +107,10 @@
 /* ===== 暗夜模式适配 ===== */
 [data-theme="dark"] .card-widget{
   background: linear-gradient(-45deg,
-  #0f172acc,
-  #1e293bcc,
-  #312e81cc,
-  #1e1b4bcc
+  #000000cc,
+  #111111cc,
+  #222222cc,
+  #000000cc
 ) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
 }
@@ -120,7 +120,7 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
   backdrop-filter: blur(10px);
 }
 [data-theme="dark"] .nav-fixed>#nav{
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
   backdrop-filter: blur(10px);
 }
 /*文章页面*/
@@ -129,7 +129,7 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
 }
 
 [data-theme=dark] .layout>#post {
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 
 /*主页文章轮播页面*/
@@ -137,7 +137,7 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
   background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
 }
 [data-theme=dark] #recent-posts>.recent-post-item {
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 
 /*主页文章列表页面卡片*/
@@ -145,14 +145,14 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
   background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
 }
 [data-theme=dark] #recent-posts>.recent-post-items .recent-post-item{
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 /*分类页面*/
 .layout>#page {
   background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
 }
 [data-theme=dark] .layout>#page {
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 
 /*归档页面*/
@@ -160,7 +160,7 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
   background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
 }
 [data-theme=dark] .layout>#archive {
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 
 /*分类点进去的页面*/
@@ -168,7 +168,7 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
   background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
 }
 [data-theme=dark] .layout>#category {
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 
 /*标签点进去的页面*/
@@ -176,7 +176,7 @@ background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !imp
   background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
 }
 [data-theme=dark] .layout>#tag {
-  background: linear-gradient(-45deg,#0f172acc,#1e293bcc,#312e81cc,#1e1b4bcc) !important;
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
 }
 
 .layout.hide-aside {
