@@ -100,6 +100,7 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
 deploy:
   type: git
   repository: git@github.com:bibbycc/bibbycc.github.io.git

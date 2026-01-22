@@ -1,27 +1,22 @@
-- author: Butterfly
+- author: BibbyChen
   avatar: /img/avatar.jpg
-  date: 2024-06-21 23:33:26
+  date: 2026-01-01 00:00:26
   key: key-1
   content: |
     你好!2026
-    ![Sample Image](https://img.091191.xyz/1767446494200.HEIC)
+    ![Sample Image](/img/test.jpg)
   tags:
-    - tags1
-    - tags2
-- author: Butterfly
-  avatar: https://butterfly.js.org/img/avatar.png
-  date: 2024-06-20 23:33:26
+    - 万事顺遂
+    - 幸福安康
+    - 早日退休
+- author: BibbyChen
+  avatar: /img/avatar.jpg
+  date: 2026-01-02 23:33:26
   key: key-2
   content: |
-    This is a sample content for **Author 2**.
-    ![Sample Image](https://via.placeholder.com/150)
+    人是不可能让另外一个人去教他怎么活下去，怎么过日子，那是很悲哀的，你知道吗？但是这个人偏偏又是我最爱、最爱的人。
+    ![Sample Image](https://ww1.sinaimg.cn/mw690/0070ecxZgy1i3dsehzd85j30u016ednk.jpg)
   tags:
-    - tag2
-    - tag3
-
-- author: Butterfly
-  avatar: https://butterfly.js.org/img/avatar.png
-  date: 2024-06-19 23:33:26
-  key: key-3
-  content: |
-    This is a sample content for **Author 3**.
+    - 《一一》
+    - 杨德昌
+    - TaiWan

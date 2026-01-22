@@ -387,16 +387,18 @@ aside:
                   <li><span class="keyword">> ***分享折腾的乐趣***</span></li>
                   <li><span class="keyword">> ***NAS系统及硬件***</span></li>
               </ul>
-              <p>🌟 <strong>生命在于折腾！折腾不止，乐趣无穷！</strong></p>🌟 
+              <p>🌟<strong>生命在于折腾！折腾不止，乐趣无穷！</strong>🌟</p>
           </div>
       </div>
+  #最近文章#
   card_recent_post:
     enable: true
     # If set 0 will show all
-    limit: 5
+    limit: 3
     # Sort: date / updated
     sort: date
     sort_order:
+  #最新评论#
   card_newest_comments:
     enable: false
     sort_order:
@@ -404,25 +406,30 @@ aside:
     # Unit: mins, save data to localStorage
     storage: 10
     avatar: true
-  card_categories:
-    enable: true
+  #分类卡片 enable: true → 启用分类
+  #limit: 8 → 显示 8 个分类
+  #expand：none → 不自动展开true → 全部展开false → 全部折叠
+  card_categories: 
+    enable: false
     # If set 0 will show all
     limit: 8
     # Choose: none / true / false
-    expand: none
+    expand: true
     sort_order:
+  #标签云卡片#
   card_tags:
     enable: true
     # If set 0 will show all
     limit: 40
-    color: false
+    color: true
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: 1
     sort_order:
+  #归档卡片#
   card_archives:
-    enable: true
+    enable: false
     # Type: monthly / yearly
     type: monthly
     # Eg: YYYY年MM月
