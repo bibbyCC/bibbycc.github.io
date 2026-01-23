@@ -1,0 +1,188 @@
+/* 一级菜单居中 */
+#nav .menus_items {
+  /* 这个带不带都可以，本来就是inline */
+  display: inline;
+  position: absolute !important;
+  width: max-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+#nav .menus_items .menus_item {
+  padding: 0 0 0 8px !important;
+}
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -95px;
+}
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: -103px;
+}
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+  left: -102px;
+}
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+  left: -117px;
+}
+.menus_items .menus_item:nth-child(6) .menus_item_child {
+  left: -133px;
+}
+.menus_items .menus_item:nth-child(7) .menus_item_child {
+  left: -105px;
+}
+
+/* 一图流教程 */
+  /* 白天模式头图与页脚遮罩 */
+  [data-theme="light"] #page-header::before {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    z-index: -3;
+  }
+  [data-theme="light"] #footer::before {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    z-index: -3;
+  }
+  
+  /* 页脚与头图透明 */
+  #footer {
+    background: transparent !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  /* 夜间模式页脚遮罩隐藏 */
+  [data-theme="dark"] #footer::before {
+    background: transparent !important;
+  }
+  /* 夜间模式页脚头部遮罩隐藏 */
+  [data-theme="dark"] #page-header::before {
+    background: transparent !important;
+  }
+  
+  /* 阅读模式 */
+  .read-mode #aside-content .card-widget {
+    background: rgba(158, 204, 171, 0.5) !important;
+  }
+  .read-mode div#post {
+    background: rgba(158, 204, 171, 0.5) !important;
+  }
+  
+  /* 夜间模式下的阅读模式 */
+  [data-theme="dark"] .read-mode #aside-content .card-widget {
+    background: rgba(25, 25, 25, 0.9) !important;
+    color: #ffffff;
+  }
+  [data-theme="dark"] .read-mode div#post {
+    background: rgba(25, 25, 25, 0.9) !important;
+    color: #ffffff;
+  }
+/* 文章页头图片透明 */
+  .page-header {
+  background: transparent !important;
+}
+/* 一图流教程end */
+
+/* ===== 通用毛玻璃基础样式 ===== */
+.card-widget {
+  background: linear-gradient(-45deg,
+  #dbeafecc,
+  #e0e7ffcc,
+  #ede9fecc,
+  #f5f3ffcc) !important;
+}
+/* 个人信息Follow me按钮 */
+#aside-content > .card-widget.card-info > #card-info-btn {
+  background-color: #7019c2f8;
+  border-radius: 8px;
+}
+/* ===== 动画定义 ===== */
+@keyframes Gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+/* ===== 暗夜模式适配 ===== */
+[data-theme="dark"] .card-widget{
+  background: linear-gradient(-45deg,
+  #000000cc,
+  #111111cc,
+  #222222cc,
+  #000000cc
+) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+/*导航栏*/
+.nav-fixed>#nav {
+background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+  backdrop-filter: blur(10px);
+}
+[data-theme="dark"] .nav-fixed>#nav{
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+  backdrop-filter: blur(10px);
+}
+/*文章页面*/
+.layout>#post {
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+
+[data-theme=dark] .layout>#post {
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+
+/*主页文章轮播页面*/
+#recent-posts>.recent-post-item {
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+[data-theme=dark] #recent-posts>.recent-post-item {
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+
+/*主页文章列表页面卡片*/
+#recent-posts>.recent-post-items .recent-post-item{
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+[data-theme=dark] #recent-posts>.recent-post-items .recent-post-item{
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+/*分类页面*/
+.layout>#page {
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+[data-theme=dark] .layout>#page {
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+
+/*归档页面*/
+.layout>#archive {
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+[data-theme=dark] .layout>#archive {
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+
+/*分类点进去的页面*/
+.layout>#category {
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+[data-theme=dark] .layout>#category {
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+
+/*标签点进去的页面*/
+.layout>#tag {
+  background: linear-gradient(-45deg,#dbeafecc,#e0e7ffcc,#ede9fecc,#f5f3ffcc) !important;
+}
+[data-theme=dark] .layout>#tag {
+  background: linear-gradient(-45deg,#000000cc,#111111cc,#222222cc,#000000cc) !important;
+}
+
+.layout.hide-aside {
+ max-width: 1600px;
+}
+/* 设置黑夜的时候，社交按钮为白色 */
+[data-theme=dark] .social-icon i {
+  color: rgba(188, 188, 188) !important; /* 设置为白色 */
+}

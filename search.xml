@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>生活慢一点，代码稳一点（图文测试）</title>
+    <url>/2026/01/03/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E5%9B%BE%E6%96%87%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="📷-照片记录"><a href="#📷-照片记录" class="headerlink" title="📷 照片记录"></a>📷 照片记录</h2><p><img src="https://img.091191.xyz/1767170763093.png" alt="梦想之车"></p>
+<p><img src="https://img.091191.xyz/1767446494200.HEIC" alt="image"></p>
+<p>最近在折腾 <strong>Hexo + Qexo + Cloudflare Pages</strong>，整体体验还不错。</p>
+<p><img src="https://img.091191.xyz/1767447122158.jpg" alt="咖啡"></p>
+<p>生活慢一点，代码写稳一点。</p>
+<p>测试的代码：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">title: 一次安静的周末 ☕</span><br><span class="line">date: 2026-01-03 15:20:00</span><br><span class="line">categories:</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 生活记录</span><br><span class="line">  tags:</span><br><span class="line"><span class="bullet">-</span> 日常</span><br><span class="line"><span class="bullet">-</span> 随拍</span><br><span class="line">  cover: https://your-domain.com/img/cover/weekend.jpg</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">周末在家整理博客，顺便拍了几张照片。</span><br><span class="line"></span><br><span class="line"><span class="section">## 📷 照片记录</span></span><br><span class="line"></span><br><span class="line">![<span class="string">桌面一角</span>](<span class="link">https://your-domain.com/img/post/desk.jpg</span>)</span><br><span class="line"></span><br><span class="line">最近在折腾 <span class="strong">**Hexo + Qexo + Cloudflare Pages**</span>，整体体验还不错。</span><br><span class="line"></span><br><span class="line">![<span class="string">咖啡</span>](<span class="link">https://your-domain.com/img/post/coffee.jpg</span>)</span><br><span class="line"></span><br><span class="line">生活慢一点，代码写稳一点。</span><br><span class="line"></span><br><span class="line"><span class="section">## 📷 照片记录</span></span><br><span class="line"></span><br><span class="line">![<span class="string">桌面一角</span>](<span class="link">https://your-domain.com/img/post/desk.jpg</span>)</span><br><span class="line"></span><br><span class="line">最近在折腾 <span class="strong">**Hexo + Qexo + Cloudflare Pages**</span>，整体体验还不错。</span><br><span class="line"></span><br><span class="line">![<span class="string">咖啡</span>](<span class="link">https://your-domain.com/img/post/coffee.jpg</span>)</span><br><span class="line"></span><br><span class="line">生活慢一点，代码写稳一点。</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Qexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Qexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（技术文章 + 图片 + 视频完整示例）</title>
+    <url>/2026/01/03/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%20+%20%E5%9B%BE%E7%89%87%20+%20%E8%A7%86%E9%A2%91%E5%AE%8C%E6%95%B4%E7%A4%BA%E4%BE%8B%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<h2 id="title-Qexo-Hexo-发文完整测试date-2026-01-03-17-00-00categories-技术tags-Hexo-Qexo-博客cover-https-your-domain-com-img-cover-hexo-jpg"><a href="#title-Qexo-Hexo-发文完整测试date-2026-01-03-17-00-00categories-技术tags-Hexo-Qexo-博客cover-https-your-domain-com-img-cover-hexo-jpg" class="headerlink" title="title: Qexo + Hexo 发文完整测试date: 2026-01-03 17:00:00categories:  - 技术tags:  - Hexo  - Qexo  - 博客cover: https://your-domain.com/img/cover/hexo.jpg"></a>title: Qexo + Hexo 发文完整测试<br>date: 2026-01-03 17:00:00<br>categories:<br>  - 技术<br>tags:<br>  - Hexo<br>  - Qexo<br>  - 博客<br>cover: <a href="https://your-domain.com/img/cover/hexo.jpg">https://your-domain.com/img/cover/hexo.jpg</a></h2><p>本文记录一次完整的 Qexo 发文测试。</p>
+<h2 id="一、问题背景"><a href="#一、问题背景" class="headerlink" title="一、问题背景"></a>一、问题背景</h2><p>使用 Qexo 作为后台，Hexo 作为生成器。</p>
+<p><img src="https://your-domain.com/img/post/qexo-admin.png" alt="后台截图"></p>
+<h2 id="二、视频演示"><a href="#二、视频演示" class="headerlink" title="二、视频演示"></a>二、视频演示</h2><p><video 
+  src="https://your-domain.com/video/qexo-demo.mp4"
+  controls
+  width="100%"><br></video></p>
+<h2 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h2><ul>
+<li>Qexo 适合日常发文</li>
+<li>图片推荐 CDN</li>
+<li>视频推荐 HTML5 或外链</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Qexo + Hexo 发文完整测试</span><br><span class="line">date: 2026-01-03 17:00:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="bullet">  -</span> Hexo</span><br><span class="line"><span class="bullet">  -</span> Qexo</span><br><span class="line"><span class="bullet">  -</span> 博客</span><br><span class="line"><span class="section">cover: https://your-domain.com/img/cover/hexo.jpg</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">本文记录一次完整的 Qexo 发文测试。</span><br><span class="line"></span><br><span class="line"><span class="section">## 一、问题背景</span></span><br><span class="line"></span><br><span class="line">使用 Qexo 作为后台，Hexo 作为生成器。</span><br><span class="line"></span><br><span class="line">![<span class="string">后台截图</span>](<span class="link">https://your-domain.com/img/post/qexo-admin.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## 二、视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">video</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://your-domain.com/video/qexo-demo.mp4&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">controls</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="section">## 三、总结</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> Qexo 适合日常发文</span><br><span class="line"><span class="bullet">-</span> 图片推荐 CDN</span><br><span class="line"><span class="bullet">-</span> 视频推荐 HTML5 或外链</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Qexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（技术文章 + 图片 + 视频完整示例）</title>
+    <url>/2026/01/03/%E6%8A%80%E6%9C%AF/%E5%BC%80%E5%8F%91/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%20+%20%E5%9B%BE%E7%89%87%20+%20%E8%A7%86%E9%A2%91%E5%AE%8C%E6%95%B4%E7%A4%BA%E4%BE%8B%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<h2 id="title-Qexo-Hexo-发文完整测试date-2026-01-03-17-00-00categories-技术tags-Hexo-Qexo-博客cover-https-your-domain-com-img-cover-hexo-jpg"><a href="#title-Qexo-Hexo-发文完整测试date-2026-01-03-17-00-00categories-技术tags-Hexo-Qexo-博客cover-https-your-domain-com-img-cover-hexo-jpg" class="headerlink" title="title: Qexo + Hexo 发文完整测试date: 2026-01-03 17:00:00categories:  - 技术tags:  - Hexo  - Qexo  - 博客cover: https://your-domain.com/img/cover/hexo.jpg"></a>title: Qexo + Hexo 发文完整测试<br>date: 2026-01-03 17:00:00<br>categories:<br>  - 技术<br>tags:<br>  - Hexo<br>  - Qexo<br>  - 博客<br>cover: <a href="https://your-domain.com/img/cover/hexo.jpg">https://your-domain.com/img/cover/hexo.jpg</a></h2><p>本文记录一次完整的 Qexo 发文测试。</p>
+<h2 id="一、问题背景"><a href="#一、问题背景" class="headerlink" title="一、问题背景"></a>一、问题背景</h2><p>使用 Qexo 作为后台，Hexo 作为生成器。</p>
+<p><img src="https://your-domain.com/img/post/qexo-admin.png" alt="后台截图"></p>
+<h2 id="二、视频演示"><a href="#二、视频演示" class="headerlink" title="二、视频演示"></a>二、视频演示</h2><p><video 
+  src="https://your-domain.com/video/qexo-demo.mp4"
+  controls
+  width="100%"><br></video></p>
+<h2 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h2><ul>
+<li>Qexo 适合日常发文</li>
+<li>图片推荐 CDN</li>
+<li>视频推荐 HTML5 或外链</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Qexo + Hexo 发文完整测试</span><br><span class="line">date: 2026-01-03 17:00:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="bullet">  -</span> Hexo</span><br><span class="line"><span class="bullet">  -</span> Qexo</span><br><span class="line"><span class="bullet">  -</span> 博客</span><br><span class="line"><span class="section">cover: https://your-domain.com/img/cover/hexo.jpg</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">本文记录一次完整的 Qexo 发文测试。</span><br><span class="line"></span><br><span class="line"><span class="section">## 一、问题背景</span></span><br><span class="line"></span><br><span class="line">使用 Qexo 作为后台，Hexo 作为生成器。</span><br><span class="line"></span><br><span class="line">![<span class="string">后台截图</span>](<span class="link">https://your-domain.com/img/post/qexo-admin.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## 二、视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">video</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://your-domain.com/video/qexo-demo.mp4&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">controls</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="section">## 三、总结</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> Qexo 适合日常发文</span><br><span class="line"><span class="bullet">-</span> 图片推荐 CDN</span><br><span class="line"><span class="bullet">-</span> 视频推荐 HTML5 或外链</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>开发</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Qexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（图文测试）</title>
+    <url>/2026/01/03/%E6%8A%80%E6%9C%AF/%E8%BF%90%E7%BB%B4/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E5%9B%BE%E6%96%87%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="📷-照片记录"><a href="#📷-照片记录" class="headerlink" title="📷 照片记录"></a>📷 照片记录</h2><p><img src="https://img.091191.xyz/1767170763093.png" alt="梦想之车"></p>
+<p><img src="https://img.091191.xyz/1767446494200.HEIC" alt="image"></p>
+<p>最近在折腾 <strong>Hexo + Qexo + Cloudflare Pages</strong>，整体体验还不错。</p>
+<p><img src="https://img.091191.xyz/1767447122158.jpg" alt="咖啡"></p>
+<p>生活慢一点，代码写稳一点。</p>
+<p>测试的代码：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">title: 一次安静的周末 ☕</span><br><span class="line">date: 2026-01-03 15:20:00</span><br><span class="line">categories:</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 生活记录</span><br><span class="line">  tags:</span><br><span class="line"><span class="bullet">-</span> 日常</span><br><span class="line"><span class="bullet">-</span> 随拍</span><br><span class="line">  cover: https://your-domain.com/img/cover/weekend.jpg</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">周末在家整理博客，顺便拍了几张照片。</span><br><span class="line"></span><br><span class="line"><span class="section">## 📷 照片记录</span></span><br><span class="line"></span><br><span class="line">![<span class="string">桌面一角</span>](<span class="link">https://your-domain.com/img/post/desk.jpg</span>)</span><br><span class="line"></span><br><span class="line">最近在折腾 <span class="strong">**Hexo + Qexo + Cloudflare Pages**</span>，整体体验还不错。</span><br><span class="line"></span><br><span class="line">![<span class="string">咖啡</span>](<span class="link">https://your-domain.com/img/post/coffee.jpg</span>)</span><br><span class="line"></span><br><span class="line">生活慢一点，代码写稳一点。</span><br><span class="line"></span><br><span class="line"><span class="section">## 📷 照片记录</span></span><br><span class="line"></span><br><span class="line">![<span class="string">桌面一角</span>](<span class="link">https://your-domain.com/img/post/desk.jpg</span>)</span><br><span class="line"></span><br><span class="line">最近在折腾 <span class="strong">**Hexo + Qexo + Cloudflare Pages**</span>，整体体验还不错。</span><br><span class="line"></span><br><span class="line">![<span class="string">咖啡</span>](<span class="link">https://your-domain.com/img/post/coffee.jpg</span>)</span><br><span class="line"></span><br><span class="line">生活慢一点，代码写稳一点。</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>运维</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Qexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E6%8A%98%E8%85%BE/NAS/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>折腾</category>
+        <category>NAS</category>
+      </categories>
+      <tags>
+        <tag>PVE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E6%8A%98%E8%85%BE/%E7%A1%AC%E4%BB%B6/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>折腾</category>
+        <category>硬件</category>
+      </categories>
+      <tags>
+        <tag>迈云达</tag>
+        <tag>群晖</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E6%8A%98%E8%85%BE/%E7%B3%BB%E7%BB%9F/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>折腾</category>
+        <category>系统</category>
+      </categories>
+      <tags>
+        <tag>Synology</tag>
+        <tag>飞牛</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E7%94%9F%E6%B4%BB/%E5%BD%B1%E8%A7%86/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>影视</category>
+      </categories>
+      <tags>
+        <tag>影视</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E7%94%9F%E6%B4%BB/%E8%B7%91%E6%AD%A5/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>跑步</category>
+      </categories>
+      <tags>
+        <tag>跑步</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活慢一点，代码稳一点（视频测试）</title>
+    <url>/2026/01/03/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E7%94%9F%E6%B4%BB%E6%85%A2%E4%B8%80%E7%82%B9%EF%BC%8C%E4%BB%A3%E7%A0%81%E7%A8%B3%E4%B8%80%E7%82%B9%EF%BC%88%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95%EF%BC%89/</url>
+    <content><![CDATA[<p>🎬 视频演示</p>
+<iframe 
+  src="https://www.bilibili.com/video/BV1ce41197Mo/?vd_source=78382ffc4bd612cf6de5fef0408d1735"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 视频外链测试</span><br><span class="line">date: 2026-01-03 16:30:00</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 技术</span><br><span class="line">tags:</span><br><span class="line"><span class="section">  - 视频</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 🎬 视频演示</span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">src</span>=<span class="string">&quot;https://www.youtube.com/embed/视频ID&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">  <span class="attr">allowfullscreen</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2026/01/03/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>想到哪说到哪</tag>
+      </tags>
+  </entry>
+</search>
